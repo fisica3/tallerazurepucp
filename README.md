@@ -13,3 +13,6 @@ Recordar ir a https://aka.ms/JoinEduLab para iniciar el proceso de creación de 
 
 - [Exercise - Explore the Learn sandbox](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/4-exercise-explore-learn-sandbox)
 - [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/?WT.mc_id=AZ-MVP-5002314)
+- Blob Containers: imagecontainer  Blob, imageoutputcontainer Container
+
+- az group create --location eastus2 --resource-group rgdemovmpucp01
