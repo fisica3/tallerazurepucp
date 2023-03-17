@@ -16,3 +16,6 @@ Recordar ir a https://aka.ms/JoinEduLab para iniciar el proceso de creación de 
 - Blob Containers: imagecontainer  Blob, imageoutputcontainer Container
 
 - az group create --location eastus2 --resource-group rgdemovmpucp01
+
+- [Exercise - Create an Azure Virtual Machine](https://docs.microsoft.com/learn/modules/describe-azure-compute-networking-services/3-exercise-create-azure-virtual-machine)
+- [Exercise - Configure network access](https://docs.microsoft.com/learn/modules/describe-azure-compute-networking-services/9-exercise-configure-network-access/)
