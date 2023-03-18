@@ -19,3 +19,28 @@ Recordar ir a https://aka.ms/JoinEduLab para iniciar el proceso de creación de 
 
 - [Exercise - Create an Azure Virtual Machine](https://docs.microsoft.com/learn/modules/describe-azure-compute-networking-services/3-exercise-create-azure-virtual-machine)
 - [Exercise - Configure network access](https://docs.microsoft.com/learn/modules/describe-azure-compute-networking-services/9-exercise-configure-network-access/)
+
+- Application Setting: azureactionern_STORAGE
+AZURE_FUNCTIONAPP_PACKAGE_PATH: './sampleResizer' # set this to the path to your web app project, defaults to the repository root
+
+## Deploy via Bicep
+Despleguemos este ejemplo usando el Azure CLI.
+
+1. Clone este repo y vaya al folder /sampleBicep/Composing/
+2. Ejecute los siguientes comandos CLI (colocando el nombre adecuado para el Grupo de Recursos)
+  ```cli
+  az group create --location westeurope --resource-group __myrgname__
+  az deployment group create --resource-group __myrgname__ --template-file Main.bicep --parameters Main.parameters.test.json
+```
+
+## Material suplementario:
+
+- [Microsoft Learn Path for Azure Fundamentals](https://learn.microsoft.com/en-us/certifications/azure-fundamentals/?WT.mc_id=AZ-MVP-5002314)
+- [Directory of Azure Services by Technical Category](https://azure.microsoft.com/en-us/products/?WT.mc_id=AZ-MVP-5002314)
+- [List of Azure Services for Developers to Know](https://learn.microsoft.com/en-us/azure/developer/intro/azure-developer-key-services?source=recommendations)
+- [Learn Azure in a Month of Lunches, Second Edition](https://azure.microsoft.com/en-us/resources/learn-azure-in-a-month-of-lunches/?WT.mc_id=AZ-MVP-5002314) 
+
+- [Azure Fridays](https://learn.microsoft.com/en-us/shows/azure-friday/?WT.mc_id=AZ-MVP-5002314)
+- [Microsoft Virtual Training Days](https://www.microsoft.com/en-us/trainingdays)
+- [Technical Resources for Academic Communities - Curricula](https://github.com/microsoft/AcademicContent/blob/main/curricula.md)
+- [Microsoft Learn Educator Center](https://learn.microsoft.com/en-us/training/educator-center/?WT.mc_id=AZ-MVP-5002314)
